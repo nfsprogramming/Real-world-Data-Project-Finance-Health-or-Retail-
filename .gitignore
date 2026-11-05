@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# mypy
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Project: keep outputs, models, and dataset for portfolio display
+# (outputs/, models/, data/ are intentionally tracked)
